@@ -1,9 +1,6 @@
 
+var myList = ['app', 'orange', 'bananas'];
 
-function go(){
-	alert("hi");
-	alert("hey there");
-}
+myList.forEach(function(value, index){
 
-go();
-go();
+});
