@@ -1,6 +1,13 @@
 
-var myList = ['app', 'orange', 'bananas'];
+var lname = document.getElementById("lname");
+var fname = document.getElementById("fname");
+var addName = document.getElementById(add-name);
 
-myList.forEach(function(value, index){
+lname.addEventListener("click", add);
+fname.addEventListener("click", add);
 
-});
+function add(){
+	var fname = fname.value;
+	var lname = lname.value;
+	addName.innerHTML = fname + lname;
+}
